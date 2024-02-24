@@ -12,10 +12,10 @@ public class Main {
 		
 		System.out.println("Introduce tu edad");
 		
-		int edad=leer.nextInt();
+		persona1.edad=leer.nextInt();
 	
 		
-		persona1.calcularAñosHastaJubilacion(edad);
+		persona1.calcularAñosHastaJubilacion(persona1);
 		
 		
 
