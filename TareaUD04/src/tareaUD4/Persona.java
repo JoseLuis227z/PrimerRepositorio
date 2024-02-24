@@ -7,7 +7,7 @@ public class Persona {
 	public void calcularAñosHastaJubilacion(Persona persona1) {
 		
 		String texto="";
-		int aniosRestantes=67-edad;
+		int aniosRestantes=67-persona1.edad;
 		
 		if (aniosRestantes<10) {
 			
